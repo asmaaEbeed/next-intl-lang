@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname } from "@/i18n/navigation";
 import { useTranslation } from "react-i18next";
 import { cn } from "@/lib/utils";
 import { NavbarItem } from "../types";
