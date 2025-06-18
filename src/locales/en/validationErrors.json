@@ -1,0 +1,21 @@
+{
+  "_comment_auth": "Auth Validation Errors.", 
+  "invalidEmail": "Invalid Email",
+  "invalidPassword": "Invalid Password",
+  "invalidPhone": "Invalid Phone Number",
+  "otpRequired": "OTP is required",
+  "otpLength": "OTP must be at least 6 characters long",
+  "passwordLengthValidation": "Password must be at least 6 characters long",
+  "confirmPasswordLengthValidation": "Confirm Password must be at least 6 characters long",
+  "passwordNotMatch": "Passwords do not match",
+
+  "_comment_user&role": "User & Role Validation Errors.",
+  "roleIsRequired": "Role is required",
+  "departmentIsRequired": "Department is required",
+  "userNameIsRequired": "User Name is required",
+  "passwordDontMatch": "Passwords do not match",
+  "invalidMobileNumber": "Invalid Mobile Number",
+  "titleIsRequired": "Title is required",
+  "medicalLicenseIsRequired": "Medical License is required",
+  "userTypeIsRequired": "User Type is required"
+}

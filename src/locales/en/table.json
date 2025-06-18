@@ -1,0 +1,20 @@
+{
+  "noResults": "No results found",
+  "id": "ID",
+  "roleName": "Role Name",
+  "permissions": "Permissions",
+  "users": "Users",
+  "userName": "User Name",
+  "role": "Role",
+  "department": "Department",
+  "healthCareProvider": "Health Care Provider",
+  "email": "Email",
+  "phone": "Phone",
+  "lastPasswordReset": "Last Password Reset",
+  "daysAgo": "Days Ago",
+  "title": "Title",
+  "medicalLicense": "Medical License",
+  "incentive": "Incentive",
+  "isPediatricDoctor": "Is Pediatric Doctor",
+  "customPermissions": "Custom Permissions"
+}

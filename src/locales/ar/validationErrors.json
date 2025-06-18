@@ -1,0 +1,21 @@
+{
+  "_comment_auth": "Auth Validation Errors.", 
+  "invalidEmail": "البريد الإلكتروني غير صحيح",
+  "invalidPassword": "كلمة المرور غير صحيحة",
+  "invalidPhone": "رقم الهاتف غير صحيح",
+  "otpRequired": "الكود المروري مطلوب",
+  "otpLength": "الكود المروري يجب أن يكون على الأقل 6 حروف",
+  "passwordLengthValidation": "كلمة المرور يجب أن تكون على الأقل 6 حروف",
+  "confirmPasswordLengthValidation": "تأكيد كلمة المرور يجب أن تكون على الأقل 6 حروف",
+  "passwordNotMatch": "كلمة المرور غير متطابقة",
+
+  "_comment_user&role": "User & Role Validation Errors.",
+  "roleIsRequired": "الدور مطلوب",
+  "departmentIsRequired": "القسم مطلوب",
+  "userNameIsRequired": "اسم المستخدم مطلوب",
+  "passwordDontMatch": "كلمة المرور غير متطابقة",
+  "invalidMobileNumber": "رقم الجوال غير صحيح",
+  "titleIsRequired": "العنوان مطلوب",
+  "medicalLicenseIsRequired": "الرخصة الطبية مطلوبة",
+  "userTypeIsRequired": "نوع المستخدم مطلوب"
+}

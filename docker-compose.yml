@@ -1,0 +1,21 @@
+services:
+  web:
+    image: "registry.digitalocean.com/hospital-information-system/frontend:IMAGE_TAG_PLACEHOLDER"
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/code
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend.rule=Host(`medlight-dev.app`)&& PathPrefix(`/app`)"
+      - "traefik.http.routers.frontend.entrypoints=websecure"
+      - "traefik.http.routers.frontend.tls.certresolver=myresolver"
+      - "traefik.http.services.frontend.loadbalancer.server.port=3000"
+
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

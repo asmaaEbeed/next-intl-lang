@@ -1,0 +1,20 @@
+{
+  "noResults": "لا يوجد نتائج",
+  "id": "الرقم",
+  "roleName": "اسم الدور",
+  "permissions": "الصلاحيات",
+  "users": "المستخدمين",
+  "userName": "اسم المستخدم",
+  "role": "الدور",
+  "department": "القسم",
+  "healthCareProvider": "المريض",
+  "email": "البريد الإلكتروني",
+  "phone": "الهاتف",
+  "lastPasswordReset": "آخر تعيين كلمة المرور",
+  "daysAgo": "أيام مضت",
+  "title": "العنوان",
+  "medicalLicense": "رقم الملف الطبي",
+  "incentive": "المكافأة",
+  "isPediatricDoctor": "طبيب طبيعي",
+  "customPermissions": "الصلاحيات المخصصة"
+}
