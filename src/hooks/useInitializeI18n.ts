@@ -1,15 +1,15 @@
 "use client";
-import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
+// import { useEffect, useState } from "react";
+// import { useTranslation } from "react-i18next";
 import "../lib/utils/i18n";
 
 export const useInitializeI18n = () => {
-  const { i18n } = useTranslation();
-  const [mounted, setMounted] = useState(false);
+  // const { i18n } = useTranslation();
+  // const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  // useEffect(() => {
+  //   setMounted(true);
+  // }, []);
 
   // useEffect(() => {
   //   if (mounted && typeof window !== "undefined") {

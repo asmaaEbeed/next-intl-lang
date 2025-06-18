@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { FiUpload } from "react-icons/fi";
@@ -33,9 +34,11 @@ export default function UploadImageBox({
       >
         {userImage && (
           
-            <img
+            <Image
               src={userImage}
               alt="Preview"
+              width={100}
+              height={100}
               className="h-full w-full rounded-full object-cover border sticky top-0"
             />
           
